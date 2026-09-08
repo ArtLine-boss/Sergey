@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sergey-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "new-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "/Users/admin/Documents/GitHub/New"],
+      "port": 3000
+    },
+    {
+      "name": "new-resources-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["exec", "--prefix", "/Users/admin/Documents/GitHub/New-resources", "--", "vite", "/Users/admin/Documents/GitHub/New-resources", "--port", "3001", "--host", "0.0.0.0"],
+      "port": 3001
+    }
+  ]
+}
